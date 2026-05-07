@@ -117,6 +117,8 @@ This GitHub repository contains code, documentation, and small non-clinical exam
 - license and use restrictions,
 - and explicit non-clinical-use disclaimers.
 
+The public dataset page currently provides a preview subset. Researchers who need larger benchmark splits, audit metadata, or extended evaluation artifacts may request access from the authors.
+
 ## Safety Boundary
 
 REACH is a research benchmark. It is **not** a medical device, clinical decision-support product, triage tool, or deployment-ready system. The examples are illustrative, abstracted, and non-clinical; they must not be used for patient care. Environment feedback metadata is benchmark instrumentation and is always subordinate to hard verifiers and expert audit.
