@@ -1,6 +1,6 @@
 # REACH: Resource-Constrained Evaluation of Agentic Circuits in Healthcare
 
-**REACH** is a benchmark and reference code skeleton for evaluating medical agents that must make **resource-constrained primary-care decisions**, not just answer medical questions. It models care as an executable circuit: a patient state, a facility readiness profile, an action, simulated environment feedback, evidence traces, and hard verifiers.
+**REACH** is a benchmark and reference code skeleton for evaluating medical agents that must make **resource-constrained primary-care decisions**, not just answer medical questions. It models care as an executable circuit: a patient state, a facility readiness profile, an action, environment feedback metadata, evidence traces, and hard verifiers.
 
 > **TL;DR**: REACH turns resource-constrained primary care into an executable agent benchmark with facility ledgers, evidence traces, hard verifiers, and expert-audited care-process metrics.
 
@@ -74,7 +74,6 @@ reach/
   router.py         # verifier-routed candidate selection skeleton
 scripts/
   evaluate_outputs.py       # evaluate predictions against JSON/JSONL gold files
-  run_scaffold_baseline.py  # minimal baseline generator for smoke tests
 examples/
   case_example.json
   prediction_example.json
@@ -109,7 +108,7 @@ The public skeleton is designed to show the benchmark contract and evaluation lo
 
 ## Data Release Plan
 
-This GitHub repository contains code, documentation, and small synthetic examples only. The full benchmark data should be hosted as a separate dataset release, preferably on Hugging Face Datasets or an equivalent archival dataset platform, with:
+This GitHub repository contains code, documentation, and small non-clinical examples only. The full benchmark data should be hosted as a separate dataset release, preferably on Hugging Face Datasets or an equivalent archival dataset platform, with:
 
 - a dataset card,
 - split definitions,
@@ -120,7 +119,7 @@ This GitHub repository contains code, documentation, and small synthetic example
 
 ## Safety Boundary
 
-REACH is a research benchmark. It is **not** a medical device, clinical decision-support product, triage tool, or deployment-ready system. The examples are synthetic or abstracted and must not be used for patient care. LLM-generated feedback is treated as simulated environment feedback and is always subordinate to hard verifiers and expert audit.
+REACH is a research benchmark. It is **not** a medical device, clinical decision-support product, triage tool, or deployment-ready system. The examples are illustrative, abstracted, and non-clinical; they must not be used for patient care. Environment feedback metadata is benchmark instrumentation and is always subordinate to hard verifiers and expert audit.
 
 ## Citation
 

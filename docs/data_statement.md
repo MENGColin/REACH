@@ -16,8 +16,7 @@ REACH must not be used for clinical deployment, patient triage, diagnosis, treat
 
 ## Known Limitations
 
-- Synthetic and abstracted cases may not reflect all real-world clinical variation.
+- Abstracted benchmark cases may not reflect all real-world clinical variation.
 - Facility ledgers are survey-style readiness abstractions, not live inventories.
-- LLM-generated environment feedback can be plausible but wrong.
+- Environment feedback metadata can be plausible but wrong and must not be treated as clinical truth.
 - Expert audit improves quality control but does not make the benchmark a clinical authority.
-

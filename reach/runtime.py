@@ -22,8 +22,8 @@ class FeedbackProvider(Protocol):
 class ReachCircuit:
     """A lightweight environment shell.
 
-    Realtime API feedback, cached feedback, and offline WFM feedback can all be
-    implemented behind the same FeedbackProvider interface.
+    Policy-contingent feedback, cached feedback, and reference benchmark
+    feedback can all be implemented behind the same FeedbackProvider interface.
     """
 
     feedback_provider: FeedbackProvider | None = None
@@ -52,4 +52,3 @@ def null_feedback_provider(
         "feedback_type": "null",
         "note": "No environment feedback provider was configured.",
     }
-
