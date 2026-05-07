@@ -1,0 +1,58 @@
+{
+  "case_id": "REACH-EXAMPLE-001",
+  "clinical_state": {
+    "age_years": 4,
+    "sex": "female",
+    "chief_complaint": "Fever and cough for two days",
+    "history": "No convulsions. Drinking less than usual but still able to drink.",
+    "vital_signs": {
+      "temperature_c": 38.4,
+      "respiratory_rate": 32,
+      "oxygen_saturation": 97
+    },
+    "physical_exam": [
+      "No chest indrawing",
+      "No danger signs",
+      "Alert"
+    ],
+    "visible_red_signals": [],
+    "visible_low_risk": [
+      "able_to_drink",
+      "normal_oxygen_saturation"
+    ]
+  },
+  "facility_context": {
+    "facility_id": "FACILITY-EXAMPLE-01",
+    "facility_tier": "primary_health_center",
+    "available_resources": [
+      "thermometer",
+      "pulse_oximeter",
+      "oral_antipyretic",
+      "phone_follow_up"
+    ],
+    "transport_available": true
+  },
+  "evidence_context": {
+    "evidence_ids": [
+      "example_protocol"
+    ],
+    "note": "Public example uses placeholder evidence ids only."
+  },
+  "gold_decision": {
+    "action_type": "follow_up",
+    "urgency": "soon",
+    "needs_referral": false,
+    "follow_up_window": "24-72h",
+    "resource_assumptions": [
+      "phone_follow_up"
+    ],
+    "evidence_trace": [
+      {
+        "evidence_id": "example_protocol",
+        "role": "follow-up safety net"
+      }
+    ],
+    "protocol_family": "imci_child"
+  }
+}
+

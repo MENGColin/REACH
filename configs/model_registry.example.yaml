@@ -1,0 +1,11 @@
+models:
+  - name: local_sft_policy
+    type: local
+    notes: "Placeholder for a locally trained policy."
+  - name: reach_vrc
+    type: routed_circuit
+    notes: "Verifier-routed circuit policy; implementation details are release-versioned."
+  - name: frontier_api_model
+    type: api
+    notes: "Use environment variables or external secret managers; never commit API keys."
+

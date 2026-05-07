@@ -1,0 +1,20 @@
+{
+  "case_id": "REACH-EXAMPLE-001",
+  "decision": {
+    "action_type": "follow_up",
+    "urgency": "soon",
+    "needs_referral": false,
+    "follow_up_window": "24-72h",
+    "resource_assumptions": [
+      "phone_follow_up"
+    ],
+    "evidence_trace": [
+      {
+        "evidence_id": "example_protocol",
+        "role": "return precautions and follow-up"
+      }
+    ],
+    "protocol_family": "imci_child"
+  }
+}
+

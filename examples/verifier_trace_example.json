@@ -1,0 +1,25 @@
+{
+  "case_id": "REACH-EXAMPLE-001",
+  "verifier_trace": [
+    {
+      "name": "schema_verifier",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "resource_verifier",
+      "passed": true,
+      "missing_resources": []
+    },
+    {
+      "name": "evidence_trace_verifier",
+      "passed": true,
+      "unknown_evidence_ids": []
+    }
+  ],
+  "environment_feedback": {
+    "feedback_type": "example",
+    "summary": "Care plan remains feasible at the facility; caregiver is advised on return precautions."
+  }
+}
+

@@ -1,0 +1,21 @@
+schema_version: reach-public-skeleton-v0.1
+decision_fields:
+  - action_type
+  - urgency
+  - needs_referral
+  - follow_up_window
+  - resource_assumptions
+  - evidence_trace
+  - protocol_family
+metrics:
+  - valid_json_rate
+  - action_match
+  - urgency_match
+  - referral_match
+  - diagnostic_check_recall
+  - follow_up_recall
+  - emergency_stabilize_recall
+notes:
+  - "Full REACH-ECS weights are version-locked with the benchmark release."
+  - "This config is for public skeleton evaluation and examples."
+

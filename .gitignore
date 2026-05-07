@@ -1,0 +1,49 @@
+# Secrets and credentials
+.env
+.env.*
+*api_key*
+*API*
+*key*.txt
+credentials*
+secrets*
+
+# Large/private artifacts
+models/
+checkpoints/
+outputs/
+runs/
+logs/
+wandb/
+trackio/
+data/raw/
+data/private/
+data/intermediate/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.jsonl
+*.xlsx
+*.xls
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
