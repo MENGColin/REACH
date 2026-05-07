@@ -117,7 +117,7 @@ This GitHub repository contains code, documentation, and small non-clinical exam
 - license and use restrictions,
 - and explicit non-clinical-use disclaimers.
 
-The public dataset page currently provides a preview subset. Researchers who need larger benchmark splits, audit metadata, or extended evaluation artifacts may request access from the authors.
+The public dataset page currently provides a preview subset. Larger benchmark splits, audit metadata, and extended evaluation artifacts are available from the authors upon request because the full release requires additional copyright, privacy, audit-responsibility, and medical-safety review.
 
 ## Safety Boundary
 
